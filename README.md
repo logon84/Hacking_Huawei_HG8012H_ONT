@@ -1397,3 +1397,4 @@ The CATV module starts automatically and I can see the channels on TV.
 This is all, I suppose that this whole process can be easily adapted to other router models to carry out certain modifications. I hope you found the tutorial interesting. Thanks for reading. Logon       
 
 [![Donate](https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ER2LTNM5LZDTY)
+BTC address: 12cQuFn7yMSfDB1uKPGKLMQ7XSj1XF2sVA
