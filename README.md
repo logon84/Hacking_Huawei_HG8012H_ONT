@@ -1100,6 +1100,13 @@ After:
 ```
 If we want to the edit credentials for the Telnet user, we have to edit them in the "<X_HW_CLIUserInfoInstance" part of the XML file.
 
+UPDATE: Seems that newer firmware versions have introduced a new hash format with salt. At this point I don't know how this new hash is generated, so it's not possible to set a password of our choice. You can identify this new hash type because, unlike previous hash methods, this one contains symbols and special-characters. A possible solution, not tested by me though, consist in setting hash and salt to a concrete one, which should set 'admin' as password:  
+```console
+<X_HW_WebUserInfoInstance InstanceID="1" UserName="root" Password="$2$Q1Z9ex/9AP4}7.N*{7C~7jQAS8Oa.{96J1.Ra8T4fh;4Ac=uPFX:n5;8={QFlwW@p8|dTB#K><!Q"G"E7I0:=(Ro%9jEq"_-/|T$" UserLevel="1" Enable="1" ModifyPasswordFlag="1" PassMode="3" Alias="cpe-1" Salt="4d28bdd0cf559f6a0c8c5467"/>
+<X_HW_WebUserInfoInstance InstanceID="2" UserName="telecomadmin" Password="$2$Q1Z9ex/9AP4}7.N*{7C~7jQAS8Oa.{96J1.Ra8T4fh;4Ac=uPFX:n5;8={QFlwW@p8|dTB#K><!Q"G"E7I0:=(Ro%9jEq"_-/|T$" UserLevel="0" Enable="1" ModifyPasswordFlag="1" PassMode="3" Alias="cpe-2" Salt="4d28bdd0cf559f6a0c8c5467"/>
+```
+This theorically sets root/admin and telecomadmin/admin credentials
+  
 ### Set local ONT's IP according to my LAN
 Before:
 ```console
