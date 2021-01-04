@@ -1105,7 +1105,7 @@ UPDATE: Seems that newer firmware versions have introduced a new hash format wit
 <X_HW_WebUserInfoInstance InstanceID="1" UserName="root" Password="$2$Q1Z9ex/9AP4}7.N*{7C~7jQAS8Oa.{96J1.Ra8T4fh;4Ac=uPFX:n5;8={QFlwW@p8|dTB#K><!Q"G"E7I0:=(Ro%9jEq"_-/|T$" UserLevel="1" Enable="1" ModifyPasswordFlag="1" PassMode="3" Alias="cpe-1" Salt="4d28bdd0cf559f6a0c8c5467"/>
 <X_HW_WebUserInfoInstance InstanceID="2" UserName="telecomadmin" Password="$2$Q1Z9ex/9AP4}7.N*{7C~7jQAS8Oa.{96J1.Ra8T4fh;4Ac=uPFX:n5;8={QFlwW@p8|dTB#K><!Q"G"E7I0:=(Ro%9jEq"_-/|T$" UserLevel="0" Enable="1" ModifyPasswordFlag="1" PassMode="3" Alias="cpe-2" Salt="4d28bdd0cf559f6a0c8c5467"/>
 ```
-This theorically sets root/admin and telecomadmin/admin credentials
+This (in theory) sets root/admin and telecomadmin/admin credentials
   
 ### Set local ONT's IP according to my LAN
 Before:
